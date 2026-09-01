@@ -66,7 +66,7 @@ const AppleSupportLanding = () => {
     // 1. Phone Resolution
     const paramPhone = urlParams.get('phone');
     const cookiePhone = cookieHelper.get('phoneSetBl');
-    const activePhone = cookiePhone || paramPhone || '1(888)339-6578';
+    const activePhone = cookiePhone || paramPhone || '+1(888)339-6578';
     setPhone(activePhone);
 
     // 2. Device Detection
